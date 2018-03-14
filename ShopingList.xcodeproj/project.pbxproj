@@ -12,6 +12,8 @@
 		A0B8491E202E5B6D00104829 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0B8491C202E5B6D00104829 /* Main.storyboard */; };
 		A0B84920202E5B6D00104829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0B8491F202E5B6D00104829 /* Assets.xcassets */; };
 		A0B84923202E5B6D00104829 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0B84921202E5B6D00104829 /* LaunchScreen.storyboard */; };
+		A0B8492B202E5EAB00104829 /* AddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B8492A202E5EAB00104829 /* AddController.swift */; };
+		A0B8492D202E604A00104829 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B8492C202E604A00104829 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A0B8491F202E5B6D00104829 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0B84922202E5B6D00104829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0B84924202E5B6D00104829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0B8492A202E5EAB00104829 /* AddController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddController.swift; sourceTree = "<group>"; };
+		A0B8492C202E604A00104829 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				A0B84918202E5B6D00104829 /* AppDelegate.swift */,
 				A0B8491A202E5B6D00104829 /* ViewController.swift */,
 				A0B8491C202E5B6D00104829 /* Main.storyboard */,
+				A0B8492C202E604A00104829 /* Constants.swift */,
+				A0B8492A202E5EAB00104829 /* AddController.swift */,
 				A0B8491F202E5B6D00104829 /* Assets.xcassets */,
 				A0B84921202E5B6D00104829 /* LaunchScreen.storyboard */,
 				A0B84924202E5B6D00104829 /* Info.plist */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0B8492B202E5EAB00104829 /* AddController.swift in Sources */,
 				A0B8491B202E5B6D00104829 /* ViewController.swift in Sources */,
 				A0B84919202E5B6D00104829 /* AppDelegate.swift in Sources */,
+				A0B8492D202E604A00104829 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +289,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Jordan.ShopingList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -296,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Jordan.ShopingList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
